@@ -52,7 +52,7 @@
     background-color: #0066cc;
     border: none;
     border-radius: 4px;
-    color: white;
+    color: #fff;
     cursor: pointer;
     font-size: 14px;
     padding: 8px 12px;
@@ -78,7 +78,7 @@
   }
   
   .positive-variance {
-    color: #22c55e;
+    color: #000000;
   }
   
   .negative-variance {
