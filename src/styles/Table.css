@@ -1,0 +1,86 @@
+.table-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .data-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .data-table th {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .data-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .data-table .value-cell {
+    text-align: right;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .number-input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 10px;
+    width: 100px;
+  }
+  
+  .number-input:focus {
+    border-color: #0066cc;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+  }
+  
+  .btn {
+    background-color: #0066cc;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 12px;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #0052a3;
+  }
+  
+  .btn:active {
+    background-color: #004080;
+  }
+  
+  .grand-total {
+    border-top: 2px solid #ddd;
+    font-weight: bold;
+  }
+  
+  .indent-level {
+    display: flex;
+    align-items: center;
+  }
+  
+  .positive-variance {
+    color: #22c55e;
+  }
+  
+  .negative-variance {
+    color: #ef4444;
+  }
